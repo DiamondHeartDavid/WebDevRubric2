@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Pokédex</h1>
+    </header>
+
+    <main>
+      <section class="filter">
+        <label for="pokemonFilter">Busca tu pokémon:</label>
+        <select id="pokemonFilter">
+          <option value="all">Todos</option>
+          <!-- Opciones dinámicas -->
+        </select>
+      </section>
+
+      <section id="cardsContainer" class="cards-grid">
+        <!-- Cards serán insertadas aquí -->
+      </section>
+    </main>
+
+    <footer>
+      <p>Desarrollado por: David Gomez y David Posada</p>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

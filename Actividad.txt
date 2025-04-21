@@ -1,0 +1,16 @@
+Diseñe un sitio web totalmente responsive cuyo contenido principal será cargado por una API.
+
+- Incluya header
+- la información principal del sitio está constituida por 15 cards organizadas de la siguiente manera:
+	1. Para la resolución más grande de pantalla: 3 cards en cada fila. El sitio contará con 5 filas para un total de 15 cards.
+	2. Para la resolución más pequeña de pantalla: se deben mostrar las 15 cards una a una en una sola columna.
+	3. Incluya footer con información de los desarrolladores.
+	4. Cada una de las cards debe incluir imagen, nombre, ability del pokemon cargado por la API: https://pokeapi.co/api/v2/pokemon/ditto
+	5. utilice funciones async-await.
+	6. Debe entregar un archivo de texto con los integrantes, links del repositorio en linea y despliegue.
+	7. Incluya una seccion de filtro tipo lista desplegable (select) donde sse carguen los nombres de los productos como opciones. Al seleccionar uno de ellos se debe mostrar solo esa card. Una de las opciones debe permitir ver todas las 15 cards.
+
+Para la sustentación:
+	1. Mostrar la funcionalidad de todo el sitio, que sea responsive y que están cada una de las secciones referenciadas en los puntos anteriores.
+	2. Hacer sustentación desde el sitio desplegado
+	3. Explica el código (estructura del sitio, construcción de secciones, filas, renderizado de las cards, filtro, consumo de la API)
