@@ -22,7 +22,7 @@ async function fetchPokemonWithDetails(id) {
         .map(encounter => encounter.location_area.name
           .split('-')
           .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(' ') // <-- Corrección aquí, faltaba cerrar el map y unir las palabras
+          .join(' ') 
         )
         .filter((value, index, self) => self.indexOf(value) === index)
         .slice(0, 3);
