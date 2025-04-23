@@ -68,6 +68,12 @@ main {
   display: grid;
   gap: 1.5em;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.cards-grid:has(.card:only-child) {
+  grid-template-columns: 1fr; /* Single column for one card */
+  justify-items: center; /* Centers the single card horizontally */
 }
 
 @media (max-width: 768px) {
