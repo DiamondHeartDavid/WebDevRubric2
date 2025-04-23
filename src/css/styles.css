@@ -74,6 +74,8 @@ main {
 .cards-grid:has(.card:only-child) {
   grid-template-columns: 1fr; /* Single column for one card */
   justify-items: center; /* Centers the single card horizontally */
+  max-width: 390px; /* Prevents the card from being too wide */
+  margin: 0 auto; /* Centers the grid itself */
 }
 
 @media (max-width: 768px) {
@@ -90,6 +92,7 @@ main {
   border: 4px solid var(--primary-red);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
+  max-width: 100%; /* Ensures the card does not exceed its container */
 }
 
 .card:hover {
